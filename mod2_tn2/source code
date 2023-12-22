@@ -3,10 +3,10 @@ CXXFLAGS = -std=c++11 -Wall
 
 
 
-send_signal: send_signal.cpp
-	$(CXX) $(CXXFLAGS) -o send_signal send_signal.cpp
+send_signal: skizb.cpp
+	$(CXX) $(CXXFLAGS) -o skizb skizb.cpp
 
 
 
-print_message: print_message.cpp
-	$(CXX) $(CXXFLAGS) -o print_message print_message.cpp
+print_message: erkrd.cpp
+	$(CXX) $(CXXFLAGS) -o erkrd erkrd.cpp
